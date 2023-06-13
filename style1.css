@@ -1,0 +1,270 @@
+*{
+    /* overflow-x: hidden; */
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa-magnifying-glass{
+    width: 40px;
+    background-color: rgb(236, 232, 232);
+    margin: 0px 4px;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    color: rgb(92, 89, 89);
+}
+
+.fa-facebook-messenger{
+    font-size: 23px;
+}
+
+.right-side-div{
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    align-items: center;
+    margin-right: 20px;
+    /* background-color: blue; */
+    
+}
+.right-side-div .profileArea{
+    position: relative;
+}
+.profileArea .profileDropdown{
+    width: 130px;
+    position: absolute;
+    top: 130%;
+    right: -100%;
+    background-color: #333333;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 4px;
+}
+.profileDropdown .accountLink{
+    width: 100%;
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profileDropdown .accountLink:hover{
+    transition: 0.2s;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+
+.center-icons{
+    /* background-color: blue; */
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.fa-house:hover{
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.fa-store:hover{
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
+    border-radius: 3px;
+}
+.fa-user-group:hover{
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
+    border-radius: 3px;
+}
+.fa-gamepad:hover{
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
+    border-radius: 3px;
+}
+.fa-bell:hover{
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
+    border-radius: 3px;
+}
+.myUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #AF7AC5;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top: 20px;
+    padding: 5px;
+    
+
+}
+.myUser img{
+    width: 100px;
+}
+.myUser h6{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.postArea{
+   
+    width: 100%;
+    background-color: rgb(245, 242, 242);
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+.img-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   
+   
+}
+.vedios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(247, 27, 27);
+    cursor: pointer;
+    
+}
+.vedios:hover{
+    background-color: rgb(221, 231, 240);
+    border-radius: 5px;
+}
+.vedios p{
+    margin-top: 12px;
+    padding-left: 2px;
+    color: rgb(65, 60, 60);
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(21, 158, 21)
+    
+}
+.photo:hover{
+    background-color: rgb(221, 231, 240);
+    border-radius: 5px;
+}
+.photo p{
+    margin-top: 12px;
+    padding-left: 2px;
+    color: rgb(65, 60, 60);
+}
+
+.feeling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(228, 228, 36);
+   
+    
+}
+.feeling:hover{
+    background-color: rgb(221, 231, 240);
+    border-radius: 5px;
+}
+.feeling p{
+    margin-top: 12px;
+    padding-left: 2px;
+    color: rgb(65, 60, 60);
+}
+#input-text{
+    width: 75%;
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+}
+#postBtn{
+    border-radius: 3px;
+    border: transparent;
+    background-color: rgb(66, 102, 221);
+    font-size: 17px;
+}
+
+.postSectonArea{
+    background-color:rgb(228, 226, 226);
+    width: 100%;
+    border-radius: 5px;
+}
+.postUpparPart{
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+}
+.name-time{
+    line-height: 7px;
+    margin-top: 10px;
+}
+.overview{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.share-section{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-cection{
+    display: flex;
+    justify-content: space-between;
+}
+.like-section{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.fa-comment{
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.fa-thumbs-up{
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.fa-share{
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.hidden{
+    display: none !important;
+}
